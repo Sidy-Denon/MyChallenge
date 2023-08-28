@@ -1,0 +1,39 @@
+
+.header{
+  display:flex;
+  justify-content:center;
+  color:midnightblue;
+  font-family:helvetica;
+
+}
+body{
+  height:100vh;        
+  font-family:helvetica;
+  border-bottom:2px auto solid midnightblue;
+}
+
+table {
+   border-collapse:collapse;
+   min-width:400px;
+   width:auto;
+   box-shadow:0 5px 50px gray;
+   cursor: pointer;
+   margin:10px auto;
+   border:1px solid midnightblue;  
+}
+thead tr,th {
+  background-color:midnightblue;
+  color:#fff;
+  text-align:left; 
+}
+
+th,td {
+  padding:15px 20px;
+}
+tbody tr, td, th{
+  border:2px solid #ddd;
+}
+tbody tr:nth-child(event){
+  background-color:#f3f3f3;
+}
+
